@@ -25,7 +25,7 @@
     "express-flash": "^0.0.2",
     "express-session": "^1.10.2",
     "express-validator": "^2.8.0",
-    "fbgraph": "^0.3.0",
+    "fbgraph": "^1.4.4",
     "github-api": "^0.10.3",
     "instagram-node": "^0.5.6",
     "jade": "^1.9.1",
