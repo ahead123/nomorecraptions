@@ -7,7 +7,9 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^0.9.0",
@@ -60,7 +62,8 @@
     "uglify-js": "^2.4.16",
     "validator": "^3.28.0",
     "xml2js": "^0.4.5",
-    "yui": "^3.18.1"
+    "yui": "^3.18.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "blessed": "^0.0.37",
@@ -71,5 +74,6 @@
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "snyk": true
 }
